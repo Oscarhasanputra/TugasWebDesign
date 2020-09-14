@@ -13,3 +13,9 @@ html,body{
     align-items: center;
     height: 100%;
 }
+.form-animative{
+    transform:translate(0,0)
+}
+.corner-rounded{
+    border-radius: 200px !important;
+}
