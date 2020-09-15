@@ -1,8 +1,11 @@
 .body-form{
     width: 80%;
-    height: 90%;
+    height: auto;
     align-items: center;
     border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    
     box-shadow:3px 10px 50px gray;
     /* height: auto; */
 }
@@ -15,6 +18,11 @@ html,body{
 }
 .form-animative{
     transform:translate(0,0)
+}
+@media only screen and (max-height:400px){
+    .body-form{
+        margin-top: 30%;
+    }    
 }
 .corner-rounded{
     border-radius: 200px !important;
