@@ -35,11 +35,20 @@ html,body{
 .form-animative{
     transform:translate(0,0)
 }
+.form-image{
+    
+    background-size: cover;
+    background-position: center;
+}
 @media only screen and (max-height:650px) and (max-width:990px){
     .body-form{
-        margin-top: 30%;
+        margin-top: 50%;
         height: 650px;
     }    
+    .form-image{
+        background-size: cover;
+        background-position: center;
+    }
 
 }
 @media only screen and (max-width:768px){
